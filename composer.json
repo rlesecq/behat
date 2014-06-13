@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:constructions-incongrues/ananas-build-toolkit.git"
+        }
+    ],
+    "require": {
+        "constructions-incongrues/ananas-build-toolkit": "dev-aramis"
+    }
+}
