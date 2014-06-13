@@ -1,6 +1,6 @@
 <?php
 
-namespace AramisAuto\Behat;
+//namespace AramisAuto\Behat;
 
 use Behat\Behat\Context\ClosuredContextInterface;
 use Behat\Behat\Context\TranslatedContextInterface;
