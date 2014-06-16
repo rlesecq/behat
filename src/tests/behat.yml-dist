@@ -11,6 +11,5 @@ default:
             goutte: ~
             selenium2: ~
     formatter:
-        name:       junit
-        parameters:
-            output_path: '%behat.paths.base%/results,null'
+        name:       pretty,progress
+

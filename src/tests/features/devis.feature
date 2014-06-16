@@ -19,5 +19,5 @@ Feature: Devis
     Then I should see "Votre devis a été envoyé"
 
   Examples:
-    | brand   | model    | name | email         | tel           | post  |
-    | Renault | Clio 4   | xxxx | tes88@test.fr | 0676665432    | 75019 |
+    | brand   | model    | name       | email            | tel           | post  |
+    | Renault | Clio 4   | #testbehat | tesbehat@test.fr | 0612345678    | 75001 |
