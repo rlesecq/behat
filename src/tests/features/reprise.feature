@@ -1,6 +1,6 @@
 # language: en
 Feature: Reprise
-  @mink:selenium2 @deploy @reprise @ri
+  @mink:selenium2 @reprise @ri
   Scenario Outline: : Reprise de vehicule
     Given I am on "/"
     When I select "<year>" from "vid[year]"
