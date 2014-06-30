@@ -16,7 +16,7 @@ Feature: Devis
     When I fill in "client_tel" with "<tel>"
     When I fill in "client_postalcode" with "<post>"
     When I press "votre devis gratuit"
-    Then I should see "Votre devis a été envoyé"
+    Then I should see "VOTRE DEVIS EST EN COURS"
 
   Examples:
     | brand   | model    | name       | email            | tel           | post  |
