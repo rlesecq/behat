@@ -1,5 +1,5 @@
 Feature: RdvRi
-    @mink:selenium2 @rdv @deploy @ri
+    @mink:selenium2 @rdv @ri
     Scenario Outline: RDV RI
       Given I am on "/rdv"
       When I fill in "Nom" with "<nom>"
