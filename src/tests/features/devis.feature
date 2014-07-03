@@ -1,6 +1,6 @@
 # language: en
 Feature: Devis
-  @mink:selenium2 @deploy @v5
+  @mink:selenium2 @v5
   Scenario Outline: : Creation devis VN
     Given I am on "/"
     When I click on "#voiture_neuve"
