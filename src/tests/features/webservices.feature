@@ -4,7 +4,7 @@ Feature: Webservices
   Scenario Outline: : Webservice des leads
     Given I am on "/"
     When I go to "creer_fiche_client.php?civilite=M&nom=<name>&prenom=<name>&codepostal=<post>&email=<email>&telephone=<tel>&ref_aramis=<refaramis>&offres_partenaires=1&partenaire=adlead"
-    Then I should see "12"
+    Then I should see "10"
 
   Examples:
     | refaramis   | partenaire    | name       | email                | tel           | post  |
