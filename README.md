@@ -11,8 +11,8 @@ La liste des tests:
 =====
 
 # RI:
-ri_rdv.feature
-ri_reprise.feature
+- ri_rdv.feature
+- ri_reprise.feature
 
 # V5:
 v5_devis_vn.feature
