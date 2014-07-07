@@ -12,7 +12,7 @@ Feature: RdvRi
       And I should see "Votre agence"
       And I press "Choisir cette agence"
       And I switch to parent
-      And I wait for "3" seconds
+      And I wait for "6" seconds
       And I click on "#full_appointment_appointment_intent_1"
       And I wait for "1" seconds
       And I press "Valider le rendez-vous"
