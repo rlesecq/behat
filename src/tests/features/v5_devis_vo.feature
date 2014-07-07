@@ -1,7 +1,7 @@
 # language: en
 Feature: Devis
   @mink:selenium2 @v5
-  Scenario Outline: : Creation devis VN
+  Scenario Outline: : Creation devis VO
     Given I am on "/"
     When I click on "#occasion_controlee"
     When I wait for "1" seconds
