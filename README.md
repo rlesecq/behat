@@ -11,15 +11,15 @@ La liste des tests:
 =====
 
 # RI:
-- ri_rdv.feature
-- ri_reprise.feature
+- ri_rdv.feature: rendez-vous en ligne
+- ri_reprise.feature: reprise
 
 # V5:
-v5_devis_vn.feature
-v5_devis_vo.feature
-v5_reprise.feature
-v5_webservices.feature
+- v5_devis_vn.feature: devis vn
+- v5_devis_vo.feature: devis vo
+- v5_reprise.feature: reprise
+- v5_webservices.feature: webservice de création des leads
 
 # V5Mobile:
-v5mobile_devis.feature
-v5mobile_reprise.feature
+- v5mobile_devis.feature: devis
+- v5mobile_reprise.feature: reprise
