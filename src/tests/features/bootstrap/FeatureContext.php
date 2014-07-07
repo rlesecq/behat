@@ -126,4 +126,13 @@ class FeatureContext extends MinkContext
 
         $element->click();
     }
+
+    /**
+     * @When /^(?:|I )manually press "([^"]*)" with "([^"]*)"$/
+     */
+    public function manuallyPress($locator, $value)
+    {
+        $session = $this->getSession();
+        $session->executeScript("$('$locator').attr('value', '$value')");
+    }
 }
