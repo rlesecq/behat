@@ -3,7 +3,7 @@ Feature: RdvRi
     Scenario Outline: RDV RI
       Given I am on "/rdv"
       When I fill in "Nom" with "<nom>"
-      And I fill in "E-mail" with "<email>"
+      And I fill in "#full_appointment_client_email" with unique email
       And I fill in "Code Postal" with "<post>"
       And I fill in "Téléphone" with "<phone>"
       And I press "Je prends un rendez-vous"
@@ -17,7 +17,7 @@ Feature: RdvRi
       And I wait for "1" seconds
       And I press "Valider le rendez-vous"
       And I wait for "15" seconds
-      Then I should see "Nous vous confirmons votre rendez-vous avec notre Expert Véhicule d'Occasion"
+      Then I should see "Votre Rendez-vous"
 
   Examples:
     | nom     | email                  | post  | phone      |
