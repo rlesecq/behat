@@ -135,4 +135,14 @@ class FeatureContext extends MinkContext
         $session = $this->getSession();
         $session->executeScript("$('$locator').attr('value', '$value')");
     }
+    
+    /**
+     * @When /^(?:|I )fill in "([^"]*)" with unique email$/
+     */
+    public function iFillWithUniqueEmail($locator)
+    {
+        $uniqueEmail = uniqid()."testbehat@yopmail.com";
+        $session = $this->getSession();
+        $session->executeScript("$('$locator').attr('value', '$uniqueEmail')");
+    }
 }
