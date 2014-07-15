@@ -33,7 +33,7 @@ Feature: Reprise
     When I check "Je ne remplace pas ce véhicule ou je l'ai déjà remplacé"
     When I press "Voir l'estimation"
     When I wait for "15" seconds
-    Then I should see "Estimation de votre voiture"
+    Then I should see "Votre estimation est prête"
 
   Examples:
     | year | month | brand   | model | energie | carrosserie | portes | motorisation  | vitesse        | finition   | km   | nom     | email                  | post  | phone      |
